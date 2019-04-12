@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+body {
+
+	background-image: url("blonde2.png");
+	font-family: "palatino";
+	color: #3B5323;
+	text-align: center;
+
+}
+h1{
+	font-family: "palatino";
+	color: #3B5323;
+	font-size: 8vw;
+	text-shadow: 1px 1px #371B07;
+}
+
+h2{
+	color: #371B07;
+	top: 0%;
+}
+
+#header {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(2%, -50%);
+}
+
+#header li {
+	list-style-type: none;
+	color: #371B07;
+	font-size: 3.5vw;
+
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(knowyour.ttf);
+}
+
+a{
+	color: #371B07;
+	text-decoration: none;
+}
+
+#podcast1 img{
+	z-index: 10;
+	position: absolute;
+	top: 340px;
+	left: 150px;
+	max-height: 550px;
+	max-width: 500px;
+
+}
+
+#podcast2 img{
+	z-index: 0;
+	position: absolute;
+	top: 340px;
+	right: 150px;
+	max-height: 550px;
+	max-width: 500px;
+}
+
+#podcast3 img{
+	z-index: 10;
+	position: absolute;
+	top: 1000px;
+	left: 150px;
+	max-height: 550px;
+	max-width: 500px;
+	margin-bottom: 50px;
+}
+
+#podcast4 img{
+	z-index: 0;
+	position: absolute;
+	top: 1000px;
+	right: 150px;
+	max-height: 550px;
+	max-width: 500px;
+	margin-bottom: 50px;
+}
+
+#observer {
+	z-index: 1000;
+	position: absolute;
+  	top: 380px;
+  	width: 280px;
+  	left: 200px;
+}
+
+#bio {
+	z-index: 8;
+	position: absolute;
+  	top: 380px;
+  	width: 280px;
+  	right: 200px;
+}
+
+#currents {
+	z-index: 1000;
+	position: absolute;
+  	top: 1040px;
+  	width: 300px;
+  	left: 200px;
+}
+
+#personal {
+	z-index: 8;
+	position: absolute;
+  	top: 1040px;
+  	width: 280px;
+  	right: 200px;
+}
+
+#logo img{
+	position: relative;
+	top: -10px;
+	left: 0;
+	max-height: 225px;
+	max-width: 225px;
+}
+
+audio {
+	position: relative;
+	left: -10px;
+}
+#logo2 img{
+	position: relative;
+	top: -10px;
+	right: 0;
+	max-height: 225px;
+	max-width: 225px;
+}
+
+#facebook img{
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+
+
+}
+
+#instagram img{
+	position: fixed;
+	bottom: 5px;
+	right: 105px;
+	width:40px;
+}
+
+#linkedin img{
+	position: fixed;
+	bottom: 0;
+	right: 50px;
+	width:50px;
+}
+
+#home {
+	text-align: left;
+	position: relative;
+	top: 0;
+	font-size: 2.5vw;
+	/*text-shadow: 2px 2px #003300;*/
+}
